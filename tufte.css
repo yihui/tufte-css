@@ -240,6 +240,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                                                    position: relative;
                                                                    }
                             label { cursor: pointer; }
+                            div.figure { max-width: 90%; }
                             pre { width: 90%;
                                        padding: 0; }
                             }
