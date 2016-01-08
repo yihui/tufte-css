@@ -189,7 +189,7 @@ div.fullwidth p.caption {
 }
 
 @media screen and (max-width: 760px) { p, footer { width: 90%; }
-                                       pre.code { width: 87.5%; }
+                                       pre { width: 87.5%; }
                                        ul { width: 85%; }
                                        figure { max-width: 90%; }
                                        figcaption, figure.fullwidth figcaption { margin-right: 0%;
