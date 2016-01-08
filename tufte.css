@@ -192,8 +192,6 @@ div.fullwidth p.caption {
                                        pre { width: 87.5%; }
                                        ul { width: 85%; }
                                        figure { max-width: 90%; }
-                                       figcaption, figure.fullwidth figcaption { margin-right: 0%;
-                                                                                 max-width: none; }
                                        blockquote p, blockquote footer { width: 90%; }}
 
 .sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
