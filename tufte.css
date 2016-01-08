@@ -206,9 +206,8 @@ pre code { font-size: 1rem; }
 
 p code { white-space: inherit; }
 
-pre.code { width: 52.5%;
-           padding-left: 2.5%;
-           overflow-x: scroll; }
+pre { width: 52.5%;
+           overflow-x: auto; }
 
 .fullwidth { max-width: 90%;
              clear:both; }
