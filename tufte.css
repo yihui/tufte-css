@@ -183,6 +183,10 @@ p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.bookt
 
 div.fullwidth, table.fullwidth { max-width: 90%; }
 
+div.fullwidth p.caption {
+  margin-right: 0;
+  max-width: 33%;
+}
 
 @media screen and (max-width: 760px) { p, footer { width: 90%; }
                                        pre.code { width: 87.5%; }
