@@ -112,6 +112,16 @@ ol, ul { width: 45%;
 
 li { padding: 0.5rem 0; }
 
+table {
+  border-top: 2px solid #111;
+  border-bottom: 2px solid #111;
+  font-size: 1.1rem;
+}
+
+th {
+  border-bottom: 1px solid #111;
+}
+
 div.figure {
          padding: 0;
          border: 0;
