@@ -98,20 +98,6 @@ p { line-height: 2rem;
     padding-right: 0;
     vertical-align: baseline; }
 
-/* Chapter Epigraphs */
-div.epigraph { margin: 5em 0; }
-
-div.epigraph > blockquote { margin-top: 3em;
-                            margin-bottom: 3em; }
-
-div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
-
-div.epigraph > blockquote > footer { font-style: normal; }
-
-div.epigraph > blockquote > footer > cite { font-style: italic; }
-
-/* end chapter epigraphs styles */
-
 blockquote { font-size: 1.4rem; }
 
 blockquote p { width: 50%; }
@@ -136,16 +122,6 @@ figure { padding: 0;
          -webkit-margin-end: 0;
          margin: 0 0 3em 0; }
 
-figcaption { float: right;
-             clear: right;
-             margin-right: -48%;
-             margin-top: 0;
-             margin-bottom: 0;
-             font-size: 1.1rem;
-             line-height: 1.6;
-             vertical-align: baseline;
-             position: relative;
-             max-width: 40%; }
 
 figure.fullwidth figcaption { margin-right: 24%; }
 
@@ -184,14 +160,6 @@ img { max-width: 100%; }
                          vertical-align: baseline;
                          position: relative; }
 
-.table-caption { float:right;
-                 clear:right;
-                 margin-right: -60%;
-                 width: 50%;
-                 margin-top: 0;
-                 margin-bottom: 0;
-                 font-size: 1.0rem;
-                 line-height: 1.6; }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 
@@ -205,15 +173,10 @@ img { max-width: 100%; }
                          top: -0.5rem;
                          left: 0.1rem; }
 
-.sidenote:before { content: counter(sidenote-counter) " ";
-                   top: -0.5rem; }
-
 p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.booktabs-wrapper { width: 55%; }
 
 div.fullwidth, table.fullwidth { width: 100%; }
 
-div.table-wrapper { overflow-x: scroll;
-                    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; }
 
 @media screen and (max-width: 760px) { p, footer { width: 90%; }
                                        pre.code { width: 87.5%; }
@@ -264,16 +227,4 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             label { cursor: pointer; }
                             pre.code { width: 90%;
                                        padding: 0; }
-                            .table-caption { display: block;
-                                             float: right;
-                                             clear: both;
-                                             width: 98%;
-                                             margin-top: 1rem;
-                                             margin-bottom: 0.5rem;
-                                             margin-left: 1%;
-                                             margin-right: 1%;
-                                             vertical-align: baseline;
-                                             position: relative; }
-                            div.table-wrapper, table, table.booktabs { width: 85%; }
-                            div.table-wrapper { border-right: 1px solid #efefef; }
-                            img { width: 100%; } }
+                            }
