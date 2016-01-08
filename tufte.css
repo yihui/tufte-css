@@ -239,6 +239,6 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                                                    position: relative;
                                                                    }
                             label { cursor: pointer; }
-                            pre.code { width: 90%;
+                            pre { width: 90%;
                                        padding: 0; }
                             }
