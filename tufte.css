@@ -206,6 +206,10 @@ pre code { font-size: 1rem; }
 
 p code { white-space: inherit; }
 
+h1 code, h2 code, h3 code { font-size: 0.80em; }
+
+.marginnote code, .sidenote code { font-size: 1rem; }
+
 pre { width: 52.5%;
            overflow-x: auto; }
 
