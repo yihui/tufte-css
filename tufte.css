@@ -131,7 +131,8 @@ div.figure {
          max-width: 55%;
          -webkit-margin-start: 0;
          -webkit-margin-end: 0;
-         margin: 0 0 3em 0; }
+         margin: 0 0 3em 0;
+         }
 
 /* Links: replicate underline that clears descenders */
 a:link, a:visited { color: inherit; }
@@ -155,7 +156,7 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
                          background: #b4d5fe; }
 
 /* Sidenotes, margin notes, figures, captions */
-img { max-width: 100%; }
+img {max-width: 100%;}
 
 .sidenote, .marginnote { float: right;
                          clear: right;
