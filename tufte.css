@@ -227,6 +227,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 @media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
                             .sidenote, .marginnote { display: none; }
+                            .shownote,
                             .margin-toggle:checked + .sidenote,
                             .margin-toggle:checked + .marginnote {
                                                                    display: block;
