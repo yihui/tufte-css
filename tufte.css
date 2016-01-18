@@ -180,8 +180,13 @@ img {max-width: 100%;}
                          left: 0.1rem; }
 
 p, footer, table { width: 55%; }
+table table, li p, li pre { width: auto; }
+li p, li pre {margin-top: auto; }
 
 div.fullwidth, table.fullwidth { max-width: 90%; }
+
+#TOC, h1.title { max-width: 90%; }
+#TOC ol, #TOC ul { width: auto; }
 
 div.fullwidth p.caption {
   margin-right: 0;
