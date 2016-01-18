@@ -179,7 +179,7 @@ img {max-width: 100%;}
                          top: -0.5rem;
                          left: 0.1rem; }
 
-p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.booktabs-wrapper { width: 55%; }
+p, footer, table { width: 55%; }
 
 div.fullwidth, table.fullwidth { max-width: 90%; }
 
